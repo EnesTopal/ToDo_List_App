@@ -47,6 +47,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Egitim4Theme {
             AddingRow()
+                Clicker()
             }
         }
     }
@@ -113,8 +114,8 @@ fun AddingRow(){
                     Text(
                         text = currentcont,
                         fontSize = 18.sp,
-                        modifier = Modifier.
-                            fillMaxWidth(0.56f)
+                        modifier = Modifier
+                            .fillMaxWidth(0.56f)
                             .padding(5.dp)
                     )
                     Row(
