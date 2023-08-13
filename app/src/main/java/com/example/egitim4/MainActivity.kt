@@ -47,7 +47,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             Egitim4Theme {
             AddingRow()
-                Clicker()
             }
         }
     }
